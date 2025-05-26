@@ -8,7 +8,7 @@ It is designed to scan Cronto codes (some kind of color QR code) and output OTP 
 
 I has a real time clock, but no way to keep time, so the time is probably transmitted through the Cronto code.
 
-## Resources
+## Resources
 
 - [Digipass 770 datasheet](https://www.onespan.com/resources/digipass-770/datasheet)
 - [Cronto Visual Transaction Signing](https://www.onespan.com/products/transaction-signing/cronto)
@@ -16,14 +16,14 @@ I has a real time clock, but no way to keep time, so the time is probably transm
 - [Decoding Algorithm for color QR code: A Mobile Scanner Application Nivedan Bhardwaj, et al.](https://www.researchgate.net/publication/309041301_Decoding_algorithm_for_color_QR_code_A_mobile_scanner_application)
 - [Robust and Fast Decoding of High-Capacity Color QR Codes for Mobile Applications Zhibo Yang, et al.](https://arxiv.org/pdf/1704.06447.pdf)
 
-## Activation
+## Activation
 
 1. The bank sends both the device and an activation letter to the user, the letter contains a Cronto code.
 2. When the user logs in for the first time, they have to scan the activation code, 
 
 It has an internal real time clock.
 
-## Opening
+## Opening
 
 The case seems to be glued together, and can only be opened by destroying the case.
 
